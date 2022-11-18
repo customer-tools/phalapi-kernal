@@ -1,0 +1,30 @@
+{
+  "name": "custom-tools/phalapi-kernal",
+  "description": "PhalApi v2.x 自定义 框架核心部分",
+  "keywords": [
+    "api", "phalapi", "framework"
+  ],
+  "license": "GPL-3.0+",
+  "homepage": "https://www.phalapi.net/",
+  "authors": [
+    {
+      "name": "zhaoli",
+      "email": "zhaoli@163.com",
+      "homepage": "http://github.com/custom-tools",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.3",
+    "phalapi/notorm": "2.*.*"
+  },
+  "autoload": {
+    "files": [
+      "src/bootstrap.php",
+      "src/functions.php"
+    ],
+    "psr-4": {
+      "PhalApi\\": "src"
+    }
+  }
+}
