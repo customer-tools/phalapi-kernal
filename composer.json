@@ -1,5 +1,5 @@
 {
-  "name": "CustomerTools/phalapi-kernal",
+  "name": "customer-tools/phalapi-kernal",
   "description": "PhalApi v2.x 自定义 框架核心部分",
   "keywords": [
     "api", "phalapi", "framework"
